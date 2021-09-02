@@ -1,0 +1,655 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 300 & display = swap');
+/*CABEÇALHO*/
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: #1f1e1e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    top: 0;
+    right: 0; 
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover{
+    background-color: black;
+}
+
+/*LOGO*/
+header.logo {
+    width: 100%;
+    float: right;
+    position: relative;
+    background-color:  rgb(255, 255, 255);
+}
+
+h1.logo{
+    width: 100%;
+    height: 20%;
+    float: right;
+    background: url(advogado3.jpeg) center center/500px no-repeat;
+    font-size: 0;
+    text-align: center;
+    margin: 50px auto;
+    margin-top: 50px auto;
+}
+
+/*ARTICLE*/
+article.equipe {
+    background-color: rgb(54,77,101);
+}
+
+div.sandrofraga {
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    margin: 50px ;
+    padding: 50px;
+    width: 700px;
+    float: left;
+    box-shadow: black 5px 5px 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+div.elisetemelo {
+    background-color: #FFF;
+    border-radius: 100px;
+    margin: 50px ;
+    padding: 58px;
+    width: 700px;
+    float: right;
+    box-shadow: black 5px 5px 5px;
+    border: 2px solid black;
+}
+
+body {
+    background-color: rgb(54,77,101);
+}
+
+h1.conheca {
+    color: white;
+    text-transform: uppercase;
+    font-size:xx-large;
+}
+
+div.area {
+    background-color:  rgb(64, 96, 129);
+}
+
+h1#areadeatuacao {
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size:xx-large;
+}
+
+div.atuacao {
+    background-color:  white; /*rgba(0, 47, 94, 0.548)*/
+    width: 800px;
+    padding: 2px;
+    
+    box-shadow: black 5px 5px 5px;
+    border: 2px solid black;
+}
+
+hgroup.introducao {
+    color: black;
+    text-align: center;
+    float: center;
+    font-size: medium;
+    margin: 50px;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: block;
+    padding-top: 0px;
+}
+
+table.direitos {
+    text-align: center;
+}
+
+table.direitos td img{
+    border-radius: 100px;
+    margin: 50px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+/*PÁGINA 2*/
+
+h1.pagina2 {
+    color: white;
+    margin: 50px;
+}
+
+table.pagina2 {
+    height: 0px;
+    padding: 0px;
+}
+
+div.faleconosco {
+    width: 1550;
+    background-color: #ffffff;
+    padding: 30px;
+    
+}
+
+td#endereco {
+   padding: 0px;
+   width: 80%;
+}
+
+td#horario {
+    padding: 0px;
+}
+
+td#telefone {
+    padding: 0px;
+    width: 15%;
+}
+
+iframe.GPS {
+    width: 600px;
+    float: left;
+    margin-left: 177px;
+}
+
+div.redes {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    margin-right: 0px;
+    margin-left: 177px;
+    padding-top: 20px;
+    float: left;
+    height: 143px;
+}
+
+table.sociais {
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 0px;
+}
+
+figure.escritorio {
+    float: right;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 176px;
+}
+
+/*PÁGINA 3*/
+
+div.texto {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 30px;
+    padding: 25px;
+    width: 1850px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+div.texto h1 {
+    margin-right: 700px;
+    color: rgb(0, 0, 0);
+}
+
+div.texto p { 
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+div.autor {
+    background-color: #c5c5c5 ;
+    float: left;
+    margin-left: 30px;
+    padding: 25px;
+    width: 1850px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+div.autor p {
+    font-size: 17px;
+}
+
+div.autor a#san {
+    color: red;
+}
+
+div.advogado2 img{
+    width: 1842px;
+}
+
+/*RODAPE*/
+
+div.rodape1 {
+    background-color: rgb(64, 96, 129);
+    padding: 10px;
+}
+
+div.rodape2 {
+    background-color: rgb(54,77,101);
+    width: 1903px;
+    padding: 10px;
+    margin-top: 593px;
+}
+
+div.rodape3 {
+    background-color: rgb(54,77,101);
+    padding: 10px;
+    margin-top: 649px;
+}
+
+hr.linha {
+    width: 1893px;
+}
+
+
+/*EFEITO DE ZOOM 1*/
+
+img.empresarialzoom {
+    overflow: hidden;
+}
+
+img.empresarialzoom {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-animation: all 0.3s;
+    transition: all 0.3s;
+}
+
+img.empresarialzoom:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*EFEITO DE ZOOM 2*/
+
+img.civilzoom {
+    overflow: hidden;
+}
+
+img.civilzoom {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-animation: all 0.3s;
+    transition: all 0.3s;
+}
+
+img.civilzoom:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*EFEITO DE ZOOM 3*/
+
+img.trabalhistazoom {
+    overflow: hidden;
+}
+
+img.trabalhistazoom {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-animation: all 0.3s;
+    transition: all 0.3s;
+}
+
+img.trabalhistazoom:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*EFEITO DE ZOOM 4*/
+
+img.familiazoom {
+    overflow: hidden;
+}
+
+img.familiazoom {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-animation: all 0.3s;
+    transition: all 0.3s;
+}
+
+img.familiazoom:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*EFEITO DE ZOOM 5*/
+
+img.consumidorzoom {
+    overflow: hidden;
+}
+
+img.consumidorzoom{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-animation: all 0.3s;
+    transition: all 0.3s;
+}
+
+img.consumidorzoom:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*EFEITO DE ZOOM 6*/
+
+img.cooperativismozoom {
+    overflow: hidden;
+}
+
+img.cooperativismozoom{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-animation: all 0.3s;
+    transition: all 0.3s;
+}
+
+img.cooperativismozoom:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*EFEITO DE ZOOM 7*/
+
+img.emailzoom {
+    overflow: hidden;
+}
+
+img.emailzoom{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-animation: all 0.3s;
+    transition: all 0.3s;
+}
+
+img.emailzoom:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*EFEITO DE ZOOM 8*/
+
+img.telefonezoom {
+    overflow: hidden;
+}
+
+img.telefonezoom{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-animation: all 0.3s;
+    transition: all 0.3s;
+}
+
+img.telefonezoom:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 768px) {
+    hr.linha {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 768px)  {
+    div.sandrofraga {
+        background-color: rgb(255, 255, 255);
+        border-radius: 50px;
+        margin: 10px ;
+        padding: 20px;
+        width: 450px;
+        float: none;
+        box-shadow: black 5px 5px 5px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.elisetemelo {
+        background-color: #FFF;
+        border-radius: 50px;
+        margin: 10px ;
+        margin-top: 20px;
+        padding: 20px;
+        width: 450px;
+        float: none;
+        box-shadow: black 5px 5px 5px;
+        border: 2px solid black;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.area {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.atuacao {
+        background-color:  white; /*rgba(0, 47, 94, 0.548)*/
+        width: 480px;
+        padding: 1px;
+        
+        box-shadow: black 5px 5px 5px;
+        border: 2px solid black;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    hgroup.introducao {
+        color: black;
+        text-align: justify;
+        font-size: medium;
+        margin: 50px;
+        font-size: 12px;
+        box-sizing: border-box;
+        display: block;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    table.direitos {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    table.direitos td img {
+        border-radius: 100px;
+        margin: 10px;
+        width: 120px;
+        border: 2px solid black;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img.civilzoom {
+        width: 128px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2.mobile {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    span#br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    hr#line {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    span#block {
+        display: block;
+    }
+}
+
+/*RESPONSIVO PÁGINA 2*/
+
+@media screen and (max-width: 768px) {
+    div.faleconosco {
+        width: 485px;
+        background-color: #ffffff;
+        padding: none;
+        padding: none;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    table.pagina2 {
+        width: 200px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2.grande { 
+        font-size: 18px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    td#horario {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    td#telefone img{
+        width: 500px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    td#endereco img{
+        width: 500px;
+        margin-left: 50px;
+     }
+}
+
+@media screen and (max-width: 768px) {
+    iframe.GPS {
+        width: 485px;
+        float: left;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    figure.escritorio{
+        margin-top: 0px;
+        margin-right: 0px;
+        width: 510px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img.mesa {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.redes {
+        background-color: rgb(255, 255, 255);
+        width: 485px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-top: 20px;
+        float: left;
+        height: 143px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+     img.icone {
+        width: 50px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    table.sociais {
+        margin-top: 0px;
+        height: 0px;
+        margin-left: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.rodape2 {
+        display: none;
+    }
+}
